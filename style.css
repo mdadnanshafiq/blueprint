@@ -470,6 +470,7 @@ a {
     }
     .footer {
         font-size: 10px;
+        height: max-content;
     }
 
     .fact {
@@ -524,11 +525,14 @@ a {
         height: 15vw;
     }
 
-    .social{
-        width: 80vw;
-        margin: 5vw auto;
-        justify-content: space-between;
+    .social {
+        gap: 10vw;
     }
+    
+    .social img {
+        width: 30px;
+    }
+    
 }
 
 
@@ -541,8 +545,6 @@ a {
     .nav>ul {
         gap: 3vw;
     }
-
-
 
     .banner-content {
         width: 90vw;
