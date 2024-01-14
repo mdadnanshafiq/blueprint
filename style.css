@@ -240,6 +240,10 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .feature-card-btn span {
