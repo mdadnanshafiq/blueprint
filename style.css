@@ -15,10 +15,10 @@ a{
 }
 
 :root{
-    --theme: rgba(14, 144, 255, 0.05);
-    --theme-deep: #0088ff;
-    --og: rgba(255, 144, 14, 0.10);
-    --og-deep:#FF900E;
+    --og: rgba(14, 144, 255, 0.05);
+    --og-deep: #0088ff;
+    /* --og: rgba(255, 144, 14, 0.10); */
+    /* --og-deep:#FF900E; */
     --og-font: #424242;
     --og-font-dark: #131313;
 
@@ -246,24 +246,129 @@ a{
 }
 
 /* fact styles */
+.fact{
+    width: 75vw;
+    margin: 6.7vw auto;
+}
 
+.fact-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6.5vw;
+    text-align: center;
+}
+
+.fact-title{
+    font-size: 2.8rem;
+    color: var(--og-font-dark);
+    font-weight: 700;
+    margin-bottom: 1.25vw;
+}
+
+.fact-describe{
+    color: var(--og-font);
+    line-height: 1.6rem;
+    width: 28.3vw;
+    margin-bottom: 5.2vw;
+}
+
+.fact-card .card{
+    border-radius: 8px;
+    border: 1px solid var(--og-deep);
+    width: 12.6vw;
+    height: 12.6vw;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    gap: 0.5vw;
+}
+
+.fact-card .card img{
+    width: 2.4vw;
+    height: 2.4vw;
+}
+
+.fact-card .card h3{
+    color: var(--og-font);
+    font-size: 2.8rem;
+}
+
+.fact-card .card p{
+    color: var(--og-font);
+    font-size: 1.25rem;
+}
 
 
 
 /* sponsor styles */
+.sponsor{
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2.6vw;
+}
 
+.sponsor-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--og-font-dark);
+    margin-bottom: 1.5vw;
+}
+
+.sponsor-describe{
+    width: 28.5vw;
+    color: var(--og-font);
+    line-height: 1.6rem;
+}
+
+.sponsor-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8.1vw;
+}
+.sponsor-img{
+    width: 8vw;
+    height: 2.7vw;
+}
+
+.sponsor-img img{
+    width: 100%;
+}
 
 
 
 /* footer styles */
-
+.footer{
+    width: 75vw;
+    height: 5.2vw;
+    margin: 6.5vw auto;
+    font-size: 1.25rem;
+    color: var(--og-font);
+    background-color: var(--og);
+    padding: 2vw 21vw;
+}
 
 
 
 
 /* social styles */
 
-
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin-bottom: 5vw;
+}
 
 
 
