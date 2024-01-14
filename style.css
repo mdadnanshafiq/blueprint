@@ -374,12 +374,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: 3vw;
     margin-bottom: 5vw;
 }
 
 .social img {
-    width: 5vw;
+    width: 3vw;
 }
 
 
@@ -393,9 +393,17 @@ a {
         gap: 2vw;
     }
 
+    .header-title{
+        font-size: 64px;
+    }
     .nav>ul {
         gap: 10vw;
     }
+
+    .nav>ul>li {
+        font-size: 16px;
+    }
+    
 
     .banner-content {
         width: 90vw;
@@ -458,6 +466,7 @@ a {
         height: max-content;
         text-align: center;
         margin: 0 auto;
+        padding: 10px auto;;
     }
     .footer {
         font-size: 10px;
@@ -465,6 +474,7 @@ a {
 
     .fact {
         width: 90vw;
+        height: max-content;
     }
 
     .fact-card {
@@ -513,6 +523,12 @@ a {
         width: 50vw;
         height: 15vw;
     }
+
+    .social{
+        width: 80vw;
+        margin: 5vw auto;
+        justify-content: space-between;
+    }
 }
 
 
@@ -525,6 +541,8 @@ a {
     .nav>ul {
         gap: 3vw;
     }
+
+
 
     .banner-content {
         width: 90vw;
