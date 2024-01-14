@@ -540,6 +540,7 @@ a {
 @media only screen and (min-width: 641px) and (max-width: 768px) {
     .header-container {
         width: 96vw;
+        flex-direction: column;
     }
 
     .nav>ul {
@@ -638,6 +639,7 @@ a {
 @media screen and (min-width: 769px) and (max-width: 1279px) {
     .header-container {
         width: 90vw;
+        flex-direction: column;
     }
 
     .banner-content {
