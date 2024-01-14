@@ -237,7 +237,6 @@ a {
     border: 0;
     position: absolute;
     transform: translate(-5vw, -9vw);
-    color: #FFF;
     font-weight: 500;
     font-size: 20px;
     line-height: 3rem;
@@ -463,12 +462,19 @@ a {
         position: static;
         display: block;
         transform: none;
-        width: 90vw;
-        height: max-content;
-        text-align: center;
-        margin: 0 auto;
-        padding: 10px auto;;
+        width: 70vw;
+        height: 50vw;
+        margin: 20px auto;
+        background-color: #FFF;
+        color: var(--og-deep);
+        border: 1px solid var(--og-deep);
     }
+
+    .feature-card-btn *{
+        line-height:normal;
+        gap: 0;
+    }
+
     .footer {
         font-size: 10px;
         height: max-content;
