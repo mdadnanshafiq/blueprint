@@ -37,7 +37,7 @@ a{
     border-radius: 8px;
     background-color: var(--og-deep);
     color: #FFF;
-    font-size: 1.25rem;
+    font-size: 15px;
     font-weight: 600;
 
 }
@@ -54,7 +54,7 @@ a{
 }
 
 .header-title{
-    font-size: 2.8rem;
+    font-size: 45px;
     font-weight: 700;
     color: var(--og-font-dark);
 }
@@ -70,7 +70,7 @@ a{
 .nav>ul>li{
     list-style: none;
     color: var(--og-font);
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -97,11 +97,12 @@ a{
 
 .banner-title{
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 64px;
     color: var(--og-font-dark);
 }
 
 .banner-describe{
+    width: 45.2vw;
     color: var(--og-font);
     line-height: 1.6;
 }
@@ -142,7 +143,7 @@ a{
 }
 
 .feature-title{
-    font-size: 2.8rem;
+    font-size: 45px;
     font-weight: 700;
     color: var(--og-font-dark);
 }
@@ -167,7 +168,7 @@ a{
 /* feature-card styles */
 .feature-card{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 7.6vw;
     width: 75vw;
@@ -175,8 +176,8 @@ a{
 }
 
 .feature-card-img{
-    width: 36.9vw;
-    height: 51.1vw;
+    width: 37.5vw;
+    height: 53vw;
     border-radius: 8px;
 }
 
@@ -197,7 +198,7 @@ a{
 .feature-card .card .card-title{
     color: var(--og-font-dark);
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 20px;
     padding-bottom: .5vw;
 }
 
@@ -210,7 +211,7 @@ a{
 .feature-card-title{
     color: var(--og-font-dark);
     font-weight: 700;
-    font-size: 2.8rem;
+    font-size: 45px;
     border-left: 5px solid var(--og-deep);
     padding-left: 1.1vw;
 }
@@ -221,28 +222,28 @@ a{
     padding-top: 1.25vw;
 }
 
+.feature-card-view{
+    position: relative;
+}
+
 .years{
-    width: 17.8vw;
-    height: 10.4vw;
+    width: 20vw;
+    height: 12vw;
     border-radius: 8px;
     background-color: var(--og-deep);
     color: #FFF;
     border: 0;
-    position: relative;
-    transform: translate(-5vw, -6.4vw);
+    position: absolute;
+    transform: translate(-5vw, -9vw);
     color: #FFF;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 20px;
     line-height: 3rem;
-}
-
-.feature-card-content{
-    margin-top: -5vw;
 }
 
 .years span{
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 55px;
 }
 
 /* fact styles */
@@ -260,7 +261,7 @@ a{
 }
 
 .fact-title{
-    font-size: 2.8rem;
+    font-size: 45px;
     color: var(--og-font-dark);
     font-weight: 700;
     margin-bottom: 1.25vw;
@@ -276,8 +277,8 @@ a{
 .fact-card .card{
     border-radius: 8px;
     border: 1px solid var(--og-deep);
-    width: 12.6vw;
-    height: 12.6vw;
+    width: 14vw;
+    height: 14vw;
     vertical-align: middle;
     display: flex;
     flex-direction: column;
@@ -294,12 +295,12 @@ a{
 
 .fact-card .card h3{
     color: var(--og-font);
-    font-size: 2.8rem;
+    font-size: 45px;
 }
 
 .fact-card .card p{
     color: var(--og-font);
-    font-size: 1.25rem;
+    font-size: 20px;
 }
 
 
@@ -317,7 +318,7 @@ a{
 }
 
 .sponsor-title{
-    font-size: 2.8rem;
+    font-size: 45px;
     font-weight: 700;
     color: var(--og-font-dark);
     margin-bottom: 1.5vw;
@@ -349,12 +350,13 @@ a{
 /* footer styles */
 .footer{
     width: 75vw;
-    height: 5.2vw;
+    height: 5.5vw;
     margin: 6.5vw auto;
-    font-size: 1.25rem;
+    font-size: 20px;
     color: var(--og-font);
     background-color: var(--og);
-    padding: 2vw 21vw;
+    padding: 2vw 12vw;
+    text-align: center;
 }
 
 
