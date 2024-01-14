@@ -26,6 +26,7 @@ a {
 
 /* main styles */
 .bg-color {
+    width: 100vw;
     background-color: var(--og);
     padding: 2.6vw;
 }
