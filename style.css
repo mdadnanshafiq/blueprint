@@ -9,11 +9,263 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 :root{
     --theme: rgba(14, 144, 255, 0.05);
     --theme-deep: #0088ff;
     --og: rgba(255, 144, 14, 0.10);
     --og-deep:#FF900E;
+    --og-font: #424242;
+    --og-font-dark: #131313;
 
 }
+
+/* main styles */
+.bg-color{
+    background-color: var(--og);
+    padding: 2.6vw;
+}
+
+.primary-btn{
+    width: 9.4vw;
+    height: 3.3vw;
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--og-deep);
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+
+
+/* header styles */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 76.25vw;
+    margin: auto;
+    padding-bottom: 5.2vw;
+}
+
+.header-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--og-font-dark);
+}
+
+/* nav styles */
+.nav>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.2vw;
+}
+
+.nav>ul>li{
+    list-style: none;
+    color: var(--og-font);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+
+
+/* banner styles */
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-content{
+    width: 45vw;
+    text-align: center;
+}
+
+.banner-content > *{
+    margin-bottom: 2.6vw;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+    color: var(--og-font-dark);
+}
+
+.banner-describe{
+    color: var(--og-font);
+    line-height: 1.6;
+}
+
+.banner-img{
+    width: 75vw;
+}
+
+.banner-img > img{
+    width: 100%;
+}
+
+/* feature styles */
+.feature{
+    width: 69vw;
+    margin: 5.3vw auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3.8vw;
+}
+
+.feature-view{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.25vw;
+}
+
+.feature-img{
+    width: 18vw;
+    height: 18vw;
+    border-radius: 8px;
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--og-font-dark);
+}
+
+.feature-title .grey{
+    color: var(--og-font);
+    font-weight: 500;
+}
+.feature-title .orange{
+    color: var(--og-deep);
+}
+
+.feature-describe{
+    color: var(--og-font);
+    line-height: 1.6;
+}
+
+.feature-content *{
+    margin-bottom: 1.6vw;
+}
+
+/* feature-card styles */
+.feature-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 7.6vw;
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.feature-card-img{
+    width: 36.9vw;
+    height: 51.1vw;
+    border-radius: 8px;
+}
+
+.feature-card-img img{
+    width: 100%;
+}
+
+.feature-card .card{
+    width: 30.5vw;
+    height: 9vw;
+    padding: 1.56vw;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin: 1.2vw auto;
+    overflow: auto;
+}
+
+.feature-card .card .card-title{
+    color: var(--og-font-dark);
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding-bottom: .5vw;
+}
+
+.feature-card .card .card-describe{
+    line-height: 1.6rem;
+    color: var(--og-font);
+    
+}
+
+.feature-card-title{
+    color: var(--og-font-dark);
+    font-weight: 700;
+    font-size: 2.8rem;
+    border-left: 5px solid var(--og-deep);
+    padding-left: 1.1vw;
+}
+
+.feature-card-describe{
+    color: var(--og-font);
+    line-height: 1.6rem;
+    padding-top: 1.25vw;
+}
+
+.years{
+    width: 17.8vw;
+    height: 10.4vw;
+    border-radius: 8px;
+    background-color: var(--og-deep);
+    color: #FFF;
+    border: 0;
+    position: relative;
+    transform: translate(-5vw, -6.4vw);
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.feature-card-content{
+    margin-top: -5vw;
+}
+
+.years span{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+/* fact styles */
+
+
+
+
+/* sponsor styles */
+
+
+
+
+/* footer styles */
+
+
+
+
+
+/* social styles */
+
+
+
+
+
+/* media query */
 
